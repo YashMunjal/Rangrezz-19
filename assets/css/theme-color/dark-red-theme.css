@@ -1,0 +1,91 @@
+
+
+
+
+.rangrezz-hero-overlay {
+	background-color: #f5aaaa;/* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f5aaaa, #ee7a6ae7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f5aaaa, #ee7a6ae7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.rangrezz-primary-btn:hover,
+.rangrezz-primary-btn:focus,
+.rangrezz-copy-right a:hover,
+.rangrezz-copy-right a:focus,
+.rangrezz-send-msg-btn:hover,
+.rangrezz-send-msg-btn:focus,
+.rangrezz-faq-content .panel-title a:hover,
+.rangrezz-faq-content .panel-title a:focus,
+.rangrezz-faq-content .panel-title a[aria-expanded="true"],
+.rangrezz-faq-content .panel-title a>span,
+.rangrezz-menu ul li a:hover,
+.rangrezz-menu ul li a:focus,
+.rangrezz-single-speakers-info p,
+.rangrezz-single-speakers-social li a:hover,
+.rangrezz-single-speakers-social li a:focus,
+.rangrezz-logo,
+.rangrezz-logo:hover,
+.rangrezz-logo:focus,
+#rangrezz-hero .navbar-default .navbar-brand,
+.rangrezz-navbar .rangrezz-menu li a:hover,
+.rangrezz-navbar .rangrezz-menu li a:focus,
+.rangrezz-single-event .rangrezz-event-time {
+	color: #970001;
+}
+
+.rangrezz-speakers-slider .slick-next,
+.rangrezz-speakers-slider .slick-prev,
+#rangrezz-venue,
+.rangrezz-popular-price .rangrezz-price-tag,
+.rangrezz-navbar .navbar-toggle,
+.rangrezz-navbar .navbar-toggle:hover,
+.rangrezz-navbar .navbar-toggle:focus,
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:focus, 
+.navbar-default .navbar-nav > .active > a:hover,
+.rangrezz-schedule-menu li a:hover,
+.rangrezz-schedule-menu li a:focus,
+.rangrezz-schedule-menu li.active a,
+.rangrezz-schedule-menu li.active a:hover,
+.rangrezz-schedule-menu li.active a:focus {
+	background-color: #970001;
+}
+
+.rangrezz-social-media a:hover,
+.rangrezz-social-media a:focus {
+	border: 1px solid #970001;
+	color: #970001;
+}
+
+.rangrezz-contact-form .form-control:focus,
+.rangrezz-schedule-menu li a {
+	border: 1px solid #970001;    
+} 
+
+.rangrezz-send-msg-btn,
+.rangrezz-register-btn:hover,
+.rangrezz-register-btn:focus,
+.rangrezz-popular-price .rangrezz-register-btn {
+	border: 1px solid #970001;
+	background-color: #970001;
+}
+
+.rangrezz-faq-content .panel-default > .panel-heading + .panel-collapse > .panel-body {
+	border-top-color: #970001;
+
+}
+
+.rangrezz-reg-submit-btn:hover,
+.rangrezz-reg-submit-btn:focus {
+	background-color: #970001;
+	border: 2px solid #970001;
+}
+
+.rangrezz-faq-content .panel-default > .panel-heading + .panel-collapse > .panel-body {
+	border-top-color: #970001;
+
+}
+
+
+
