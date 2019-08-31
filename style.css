@@ -1626,8 +1626,8 @@ img {
 	font-size:155%;
 	}
 	.image-logo{
-		min-height:335.2px;
-		min-width: 333.6px;
+		min-height:320.2px;
+		min-width: 320.6px;
 		top:24%;
 		width:50%;
 	height:50%;
@@ -1641,17 +1641,33 @@ img {
 	width:40%;
 	height:40%;
 	top:70%;
-	font-size:155%;
+	font-size:130%;
 	}
 	.image-logo{
-		min-height:300px;
-		min-width: 300px;
+		min-height:20vw;
+		min-width: 20vw;
 		top:24%;
 		width:50%;
 	height:50%;
 	}
 }
-
+@media(max-width:520px)
+{
+	timer-box
+	{
+		left:11%;
+	width:5vw;
+	height:5vw;
+	top:60%;
+	font-size:180%;
+	}
+	.image-logo{
+		min-height:20vw;
+		min-width: 20vw;
+		top:24vh;
+	}
+	
+}
 #time-1{
     background-color: #db0fd8;
 }
