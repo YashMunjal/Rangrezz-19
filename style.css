@@ -1668,6 +1668,23 @@ img {
 	}
 	
 }
+@media(max-width:480px)
+{
+	timer-box
+	{
+		left:10%;
+	width:5vw;
+	height:5vw;
+	top:65%;
+	font-size:180%;
+	}
+	.image-logo{
+		min-height:262.2px;
+		min-width: 333px;
+		top:24vh;
+	}
+	
+}
 #time-1{
     background-color: #db0fd8;
 }
