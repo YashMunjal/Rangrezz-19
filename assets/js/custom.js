@@ -3,15 +3,14 @@
 (function( $ ){
 
 
-
 	jQuery(window).bind('scroll', function () {
-    if ($(window).scrollTop() > 150) {
-        $('.rangrezz-navbar').addClass('rangrezz-nav-show');
-        
-	    } else {
-	        $('.rangrezz-navbar').removeClass('rangrezz-nav-show');
-	    }
-	});
+		if ($(window).scrollTop() > 150) {
+			$('.rangrezz-navbar').addClass('rangrezz-nav-show');
+			
+			} else {
+				$('.rangrezz-navbar').removeClass('rangrezz-nav-show');
+			}
+		});
 
 	/* ----------------------------------------------------------- */
 	/*  2. EVENT TIME COUNTER
@@ -160,9 +159,6 @@
 	/*  7. MOBILE MENU CLOSE 
 	/* ----------------------------------------------------------- */ 
 
-	jQuery('.rangrezz-menu').on('click', 'li a', function() {
-	  $('.rangrezz-navbar .in').collapse('hide');
-	});
 
 
 
@@ -171,6 +167,7 @@
 	
 	
 })( jQuery );
+
 
 
 
