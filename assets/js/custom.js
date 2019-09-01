@@ -5,7 +5,7 @@
 
 	jQuery(window).bind('scroll', function () {
 		if ($(window).scrollTop() > 200) {
-			$('navbar').show();
+			$('.navbar').show();
 			
 			} else if($(window).scrollTop() < 200){
 				$('.navbar').hide();
