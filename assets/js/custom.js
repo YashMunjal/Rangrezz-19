@@ -4,11 +4,13 @@
 
 
 	jQuery(window).bind('scroll', function () {
-		if ($(window).scrollTop() > 150) {
+		if ($(window).scrollTop() > 200) {
 			$('.rangrezz-navbar').addClass('rangrezz-nav-show');
+			$('nav').show();
 			
 			} else {
 				$('.rangrezz-navbar').removeClass('rangrezz-nav-show');
+				$('nav').hide();
 			}
 		});
 
