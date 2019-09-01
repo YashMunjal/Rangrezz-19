@@ -3,14 +3,7 @@
 (function( $ ){
 
 
-	jQuery(window).bind('scroll', function () {
-		if ($(window).scrollTop() > 200) {
-			$('.rangrezz-navbar').addClass('rangrezz-nav-show');
-			
-			} else {
-				$('.rangrezz-navbar').removeClass('rangrezz-nav-show');
-			}
-		});
+	
 
 	/* ----------------------------------------------------------- */
 	/*  2. EVENT TIME COUNTER
