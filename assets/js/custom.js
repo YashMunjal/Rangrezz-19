@@ -5,10 +5,10 @@
 
 	jQuery(window).bind('scroll', function () {
 		if ($(window).scrollTop() > 200) {
-			$('nav').show();
+			$('navbar').show();
 			
-			} else {
-				$('nav').hide();
+			} else if($(window).scrollTop() < 200){
+				$('.navbar').hide();
 			}
 		});
 
