@@ -1719,9 +1719,14 @@ img {
     font-family: 'Pinyon Script', cursive; 
     border-radius: 10px;
 }
-
-
-
+.logo{
+	height: 5vw;
+	width: 15vw;
+	position: absolute;
+	top: 10vh;
+	left: 2vw;
+	z-index: 0;
+}
 /*=================Timer Resp Ends===============*/
 #particles-js{
     height: 100vh;
