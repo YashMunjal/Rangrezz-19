@@ -5,10 +5,10 @@
 
 	jQuery(window).bind('scroll', function () {
 		if ($(window).scrollTop() > 200) {
-			$('.navbar').show();
+			$('.rangrezz-navbar').addClass('rangrezz-nav-show');
 			
-			} else if($(window).scrollTop() < 200){
-				$('.navbar').hide();
+			} else {
+				$('.rangrezz-navbar').removeClass('rangrezz-nav-show');
 			}
 		});
 
