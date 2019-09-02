@@ -1548,7 +1548,7 @@ background-image:linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
 {
 	timer-box
 	{
-		left:10%;
+		left:-10%;
 	width:5vw;
 	height:5vw;
 	top:60%;
