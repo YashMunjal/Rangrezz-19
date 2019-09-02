@@ -93,7 +93,9 @@
 
         $('.rangrezz-video-iframe').attr('src', $('.rangrezz-video-iframe').attr('src'));
 
-    });
+	});
+	if(jQuery(window).width()<570)
+	$('.rangrezz-video-iframe-area').width(jQuery(window).width());
 
     // when click overlay area
 
