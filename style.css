@@ -89,6 +89,42 @@ background-image:linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
 		padding:8px 15px
 	}
 }
+canvas{
+	background: transparent!important;
+}
+.btn-liquid {
+	display: inline-block;
+	position: relative;
+	width: 240px;
+	height: 60px;
+
+	border-radius: 27px;
+	color: #fff;
+	font: 700 14px/60px "Droid Sans", sans-serif;
+	letter-spacing: 0.05em;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.btn-liquid .inner {
+	position: relative;
+	text-decoration: none;
+	z-index: 2;
+}
+
+.btn-liquid canvas {
+	position: absolute;
+	top: -50px;
+	right: -50px;
+	bottom: -50px;
+	left: -50px;
+	z-index: 1;
+}
+.btn-liquid:hover{
+	text-decoration: none;
+	color:#fff;
+}
 
 /*--------------------*/
 /* MENU */
@@ -1687,18 +1723,23 @@ background-image:linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
 	-webkit-transition: 200ms ease-in-out;
 	-o-transition: 200ms ease-in-out;
 	transition: 200ms ease-in-out;
-	-webkit-box-shadow: 0 0 15px rgba(0,0,0,0.3);
-	        box-shadow: 0 0 15px rgba(0,0,0,0.3);
+	-webkit-box-shadow: 1px 1px  3px 5px rgba(0,0,0,0.3);
+			box-shadow: 1px 1px 3px 5px rgba(0,0,0,0.3);
+			transition: 1s;
 }
 .box:hover {
-	margin-bottom: -10px;
-	-webkit-box-shadow: 0 0 5px rgba(0,0,0,0.7);
-	        box-shadow: 0 0 5px rgba(0,0,0,0.7);
+	/* margin-bottom: -10px; */
+	transition: 1s;
+	-webkit-box-shadow: 0 0 0 0px rgba(0,0,0,0.7);
+	        box-shadow: 0 0 0 0px rgba(0,0,0,0.7);
 }
 .box h1 {
 	color: #fff;
 	padding: 30px;
-	margin-top: 100px;
+	/* margin-top: 100px; */
+	position: relative;
+	top: 70%;
+	transform: translateY(-20%);
 	text-align: center;
 	font-weight: 100;
 	font-size: 25px;
@@ -1708,14 +1749,32 @@ background-image:linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
 }
 
 .one {
-	background-image: url('../img/laundry.jpg');
+	background-image: url('./assets/images/stage.JPG');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
 }
 .two {
-	background-image: url('../img/food-bg1.jpg');
+	background-image: url('./assets/images/street.JPG');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
 }
+
+
+
+.mc img{
+	width: 300px;
+	height: 300px;
+	object-fit: cover;
+}
+.mc{
+	height: 420px;
+	width: 300px;
+	margin: 2%;
+	background: #eee;
+	border: 4px solid coral;
+	/* padding: 2%; */
+}
+
+
