@@ -54,6 +54,16 @@ img {
 .rangrezz-menu-btn:focus {
 	border: 2px solid #fff;
 }
+.register-button
+{
+	color:white;
+  border-radius:10px;
+  padding:10px 30px;
+  box-shadow:0 10px 10px -1px rgba(0,0,0,0.3);
+  border:0px solid ;
+  background-color:#ff4e00;
+background-image:linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
+}
 /*--------------------*/
 /* MENU */
 /*--------------------*/
@@ -476,9 +486,7 @@ img {
 	margin-bottom: 5px;
 }
 
-.rangrezz-single-speakers-social {
 
-}
 
 .rangrezz-single-speakers-social li {
 	display: inline-block;
@@ -862,199 +870,52 @@ img {
 /*--------------------*/
 /* CONTACT US */
 /*--------------------*/
-
-#rangrezz-contact {
-	background-color: #f8f8f8;
-	display: inline;
-	float: left;
-	width: 100%;
-}
-
-.rangrezz-contact-area {
-	display: inline;
-	float: left;
-	padding: 100px 0 50px;
-	width: 100%;
-}
-
-.rangrezz-contact-header {
-	display: inline;
-	float: left;
-	text-align: center;
-	width: 100%;
-	padding: 0 120px;
-}
-
-.rangrezz-contact-content{
-	display: inline;
-	float: left;
-	margin-top: 50px;
-	padding: 0 20%;
-	width: 100%;
-}
-
-
-.rangrezz-contact-form-area {
-	display: inline;
-	float: left;
-	width: 100%;
-}
-
-.rangrezz-contact-form {
-	text-align: center;
-}
-
-.rangrezz-contact-form .form-group input {
-	background: transparent;
-	border-radius: 5px;
-	color: #333;
-	font-size: 15px;
-	border: 1px solid #888;
-	height: 45px;
-	margin-bottom: 24px;
-}
-
-.rangrezz-contact-form .form-group textarea {
-	background: transparent;
-	border: 1px solid #888;
-	border-radius: 5px;
-	color: #333;
-	font-size: 18px;
-	padding: 10px;
-	height: 190px;
-}
-
-.rangrezz-contact-form .form-control:focus {
+#contact {
 	background-color: #fff;
-    outline: 0;
-    box-shadow: none;    
-} 
-
-.rangrezz-contact-form .form-control::-webkit-input-placeholder {
-	color: #888;
-	font-size: 15px;
-}
-
-.rangrezz-contact-form .form-control:-moz-placeholder { /* Firefox 18- */
-	color: #888;
-	font-size: 15px; 
-}
-
-.rangrezz-contact-form .form-control::-moz-placeholder {  /* Firefox 19+ */
-	color: #888;
-	font-size: 15px;
-}
-
-.rangrezz-contact-form .form-control:-ms-input-placeholder {  
-	color: #888;
-	font-size: 15px;
-}
-
-.rangrezz-contact-form .button-default::after,
-.rangrezz-contact-form .button-default > span {
-	padding: 12px 40px;  
-}
-
-#form-messages {
-	margin-bottom: 10px;
-    background-color: #fff;
-}
-
-.success {
-	padding: 1em;
-	margin-bottom: 0.75rem;
-	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
-	color: #468847;
-	background-color: #dff0d8;
-	border: 1px solid #d6e9c6;
-	-webkit-border-radius: 4px;
-	 -moz-border-radius: 4px;
-	      border-radius: 4px;
-}
-
-.error {
-	padding: 1em;
-	margin-bottom: 0.75rem;
-	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
-	color: #b94a48;
-	background-color: #f2dede;
-	border: 1px solid rgba(185, 74, 72, 0.3);
-	-webkit-border-radius: 4px;
-	 -moz-border-radius: 4px;
-	      border-radius: 4px;
-}
-
-
-
-/*--------------------*/
-/* FOOTER */
-/*--------------------*/
-
-
-#rangrezz-footer {
-	background-color: #f8f8f8;
 	display: inline;
 	float: left;
 	width: 100%;
+	margin-top:8%;
 }
 
-.rangrezz-footer-area{
+.title-area{
+	font-size:20px;
 	display: inline;
-	float: left;
-	padding: 30px 0;
+	float: center;
 	text-align: center;
+	padding: 0 120px;
 	width: 100%;
 }
-
-.rangrezz-footer-top {
-	display: inline;
-	float: left;
-	width: 100%;
-}
-
 .rangrezz-social-media {
 	display: inline;
 	float: left;
+	margin-top: 2%;
 	padding: 10px 0;
 	width: 100%;
-}
-
-.rangrezz-social-media a {
-	border: 1px solid #19191a;
-	border-radius: 50px;
-	color: #19191a;
-	display: inline-block;
-	font-size: 12px;
-	margin-right: 10px;
 	text-align: center;
+}
+.rangrezz-social-media a {
+	border: 2px solid #19191a;
+	border-radius: 50px;
+	display: inline-block;
 	text-decoration: none;
-	transition: all 0.2s ease-in-out 0s;
-	width: 35px;
-	height: 35px;
-	line-height: 35px;
-	font-size: 15px;
+	width: 40px;
+	height: 40px;
+	font-size: 25px;
 }
-
-.rangrezz-footer-bottom {
-	display: inline;
-	float: left;
-	width: 100%;
+.yt{
+	background-color: red;
+	color: white;
 }
-
-.rangrezz-copy-right {
-	margin-bottom: 0;
+.fb{
+	background-color: #2a2ae0;
+	color: white;
 }
-
-.rangrezz-copy-right a {
-	font-weight: 600;
-	-webkit-transition: all 0.5s;
-	-o-transition: all 0.5s;
-	transition: all 0.5s;
-}
-
-
-
-/*--------------------*/
+.insta{
+	background-color:#f09433;
+	background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+	color:white;
+}/*--------------------*/
 /* RESPONSIVE STYLE */
 /*--------------------*/
 
@@ -1760,4 +1621,70 @@ img {
 	height: 100vh;
 	width: 100vw;
 }
-/*=======================The New Navbar===================*/
+/*=======================The Major Event Cards===================*/
+#rangrezz-major-events {
+	background-color: #fff;
+	display: inline;
+	float: left;
+	width: 100%;
+	margin-top:-1%;
+}
+.wrap {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+}
+
+.box {
+	margin: 10px;
+	width: 300px;
+	height: 490px;
+	text-align: center;
+	border-radius: 3px;
+	-webkit-transition: 200ms ease-in-out;
+	-o-transition: 200ms ease-in-out;
+	transition: 200ms ease-in-out;
+	-webkit-box-shadow: 0 0 15px rgba(0,0,0,0.3);
+	        box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+.box:hover {
+	margin-bottom: -10px;
+	-webkit-box-shadow: 0 0 5px rgba(0,0,0,0.7);
+	        box-shadow: 0 0 5px rgba(0,0,0,0.7);
+}
+.box h1 {
+	color: #fff;
+	padding: 30px;
+	margin-top: 100px;
+	text-align: center;
+	font-weight: 100;
+	font-size: 25px;
+	background: rgba(0,0,0,0.8);
+	-webkit-box-shadow: 0 0 30px rgba(0,0,0,0.7);
+	        box-shadow: 0 0 30px rgba(0,0,0,0.8);
+}
+
+.one {
+	background-image: url('../img/laundry.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.two {
+	background-image: url('../img/food-bg1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
