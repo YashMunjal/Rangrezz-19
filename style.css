@@ -1691,79 +1691,90 @@ canvas{
 /*=======================The Major Event Cards===================*/
 #rangrezz-major-events {
 	background-color: #fff;
-	display: inline;
-	float: left;
 	width: 100%;
-	margin-top:-1%;
+	margin-bottom: 6vh;
 }
-.wrap {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-ms-flex-wrap: wrap;
-	    flex-wrap: wrap;
-	-webkit-box-pack: center;
-	    -ms-flex-pack: center;
-	        justify-content: center;
-	-webkit-box-align: center;
-	    -ms-flex-align: center;
-	        align-items: center;
-	-webkit-box-orient: horizontal;
-	-webkit-box-direction: normal;
-	    -ms-flex-direction: row;
-	        flex-direction: row;
-}
-
-.box {
-	margin: 10px;
-	width: 300px;
-	height: 300px;
+#major-events{
 	text-align: center;
-	border-radius: 3px;
-	-webkit-transition: 200ms ease-in-out;
-	-o-transition: 200ms ease-in-out;
-	transition: 200ms ease-in-out;
-	-webkit-box-shadow: 1px 1px  3px 5px rgba(0,0,0,0.3);
-			box-shadow: 1px 1px 3px 5px rgba(0,0,0,0.3);
-			transition: 1s;
+	font-size: 6vw;
+	font-weight: 600;
+	font-family: 'samarkan_____normal', Arial, sans-serif; 
+	padding-bottom: 2.5vh;
+	animation:mycolor 3s infinite;
 }
-.box:hover {
-	/* margin-bottom: -10px; */
-	transition: 1s;
-	-webkit-box-shadow: 0 0 0 0px rgba(0,0,0,0.7);
-	        box-shadow: 0 0 0 0px rgba(0,0,0,0.7);
-}
-.box h1 {
-	color: #fff;
-	padding: 30px;
-	/* margin-top: 100px; */
+@keyframes mycolor{
+	form{
+		color:#000000;
+	}
+	to{
+		color: maroon;
+	}
+}.card{
 	position: relative;
-	top: 70%;
-	transform: translateY(-20%);
+	margin: auto;
+	top: 2vh;
+	height: 400px;
+	width: 325px;
+	transform-style: preserve-3d;
+	perspective: 600px;
+	border-radius: 3px;
+	transition: 0.5s;
+  }
+  .card:hover .card-front1{
+	transform: rotateZ(-180deg);
+  }
+  .card:hover .card-front2{
+	transform: rotateZ(-180deg);
+  }
+  .card:hover .card-back{
+	transform: rotateZ(0deg);
+  }
+  .card-front1{
+	height: 100%;
+	width: 100%;
+	background-image: url(./assets/images/required.png);
+	background-position: 50% 50%;
+	background-size: cover;
+	position: absolute;
+	backface-visibility: hidden;
+	transform: rotateX(0deg);
+	transition: 0.5s;
+  }
+  
+  .card-front2{
+	height: 100%;
+	width: 100%;
+	background-image: url(./assets/images/required.png);
+	background-position: 50% 50%;
+	background-size: cover;
+	position: absolute;
+	backface-visibility: hidden;
+	transform: rotateX(0deg);
+	transition: 0.5s;
+  }
+  .card-back{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	background-color: #000000;
+	backface-visibility: hidden;
+	transform: rotateX(180deg);
+	transition: 0.5s;
+	color: #ffffff;
 	text-align: center;
-	font-weight: 100;
-	font-size: 25px;
-	background: rgba(0,0,0,0.8);
-	-webkit-box-shadow: 0 0 30px rgba(0,0,0,0.7);
-	        box-shadow: 0 0 30px rgba(0,0,0,0.8);
-}
-
-.one {
-	background-image: url('./assets/images/stage.JPG');
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-}
-.two {
-	background-image: url('./assets/images/street.JPG');
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-}
-
-
-
-.mc img{
+  }
+  .card-back h2{
+	margin: 60% auto 35% auto;
+	font-size: 2.5vw;
+  }
+  .card-back a {
+	text-decoration: none;
+	font-size: 2vw;
+  }
+  .card-back a:hover{
+	  text-decoration: none;
+	  color: red;
+  }.mc img{
 	width: 300px;
 	height: 300px;
 	object-fit: cover;
