@@ -1493,7 +1493,7 @@ canvas{
 	position:absolute;
 	min-height:330.2px;
 	min-width: 330.6px;
-    transform: translate(-50%);
+    transform: translate(-50%,20%);
     z-index: 5;
 }
 .image-logo img{
@@ -1516,7 +1516,7 @@ canvas{
 {
 	.timer-box
 	{
-		left:24%;
+		left:28%;
 	width:40%;
 	height:40%;
 	top:75%;
@@ -1528,33 +1528,16 @@ canvas{
 		top:25vh;
 		width:40%;
 	height:40%;
-	}
-}
-@media(max-width:570px)
-{
-	timer-box
-	{
-		left:22%;
-	width:40%;
-	height:40%;
-	top:75%;
-	font-size:155%;
-	}
-	.image-logo{
-		min-height:320.2px;
-		min-width: 320.6px;
-		top:24%;
-		width:50%;
-		height:50%;
+	transform: translate(-50%,0);
 	}
 }
 @media(max-width:610px)
 {
-	timer-box
+	.timer-box
 	{
-		left:22%;
-	width:40%;
-	height:40%;
+		left:25%;
+	width:38%;
+	height:38%;
 	top:75%;
 	font-size:155%;
 	}
@@ -1568,13 +1551,14 @@ canvas{
 }
 @media(max-width:570px)
 {
-	timer-box
+	.timer-box
 	{
 		left:16%;
 	width:40%;
 	height:40%;
 	top:70%;
 	font-size:130%;
+	transform:translate(24%,15%);
 	}
 	.image-logo{
 		min-height:320px;
@@ -1586,13 +1570,13 @@ canvas{
 }
 @media(max-width:520px)
 {
-	timer-box
+	.timer-box
 	{
-		left:-10%;
 	width:5vw;
 	height:5vw;
-	top:60%;
+	top:75%;
 	font-size:150%;
+	transform:translate(10vw);
 	}
 	.image-logo{
 		min-height:262.2px;
@@ -1603,13 +1587,13 @@ canvas{
 }
 @media(max-width:500px)
 {
-	timer-box
+	.timer-box
 	{
-		left:-8%;
 	width:5vw;
 	height:5vw;
 	top:65%;
 	font-size:150%;
+	transform:translate(5vw,15vw);
 	}
 	.image-logo{
 		min-height:240.2px;
