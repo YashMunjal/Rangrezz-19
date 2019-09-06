@@ -331,7 +331,7 @@ $(function() {
 
 		// Clear scene
 		context.clearRect(0, 0, $canvas.width(), $canvas.height());
-		context.fillStyle = 'transparent ';
+		context.fillStyle = 'transparent';
 		context.fillRect(0, 0, $canvas.width(), $canvas.height());
 
 		// Move points
