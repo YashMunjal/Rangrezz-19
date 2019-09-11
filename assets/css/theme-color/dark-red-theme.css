@@ -1,14 +1,9 @@
-
-
-
-
 .rangrezz-hero-overlay {
 	background-color: #f5aaaa;/* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #f5aaaa, #ee7a6ae7);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #f5aaaa, #ee7a6ae7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
-
 .rangrezz-primary-btn:hover,
 .rangrezz-primary-btn:focus,
 .rangrezz-copy-right a:hover,
@@ -33,7 +28,6 @@
 .rangrezz-single-event .rangrezz-event-time {
 	color: #970001;
 }
-
 .rangrezz-speakers-slider .slick-next,
 .rangrezz-speakers-slider .slick-prev,
 #rangrezz-venue,
