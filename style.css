@@ -982,7 +982,13 @@ canvas{
 /*--------------------*/
 
 @media (max-width: 1199px) {
-
+	.container{
+		margin-left: 0vw;
+	}
+	.mc{
+		height: 200px;
+		width: 200px;
+	}
 	.rangrezz-register-content {
 		padding: 0 150px;
 	}
@@ -1007,7 +1013,9 @@ canvas{
 }
 
 @media (max-width: 991px) {	
-
+	.col-md-6{
+		margin-top: 2%;
+	}
 	.rangrezz-primary-btn {
 		font-size: 14px;
 		padding: 12px 22px;
@@ -1758,7 +1766,11 @@ canvas{
   .card-back a:hover{
 	  text-decoration: none;
 	  color: red;
-  }.mc img{
+  }
+  .row{
+	  margin-left: 5vw;
+  }
+.mc img{
 	width: 300px;
 	height: 300px;
 	object-fit: cover;
@@ -1768,8 +1780,5 @@ canvas{
 	width: 300px;
 	margin: 2%;
 	background: #eee;
-	border: 4px solid coral;
-	/* padding: 2%; */
+	border: 4px solid maroon;
 }
-
-
