@@ -933,16 +933,28 @@ canvas{
 	background-color:#f09433;
 	background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
 	color:white;
-}/*--------------------*/
+}
+.mc img{
+	width: 300px;
+	height: 300px;
+	object-fit: cover;
+}
+.mc{
+	height: 420px;
+	width: 300px;
+	margin: 2%;
+	background: #eee;
+	border: 4px solid maroon;
+}
+/*--------------------*/
 /* RESPONSIVE STYLE */
 /*--------------------*/
 @media (max-width: 1199px) {
-	.container{
-		margin-left: 0vw;
-	}
 	.mc{
-		height: 200px;
-		width: 200px;
+		width: 250px;
+	}
+	.cont{
+		justify-content: center;
 	}
 	.rangrezz-register-content {
 		padding: 0 150px;
@@ -971,7 +983,10 @@ canvas{
 		margin-top: -3vh;
 	}
 }
-@media (max-width: 991px) {	
+@media (max-width: 991px) {
+	.mc{
+		width: 250px;
+	}
 	.col-md-6{
 		margin-top: 2%;
 	}
@@ -1660,7 +1675,8 @@ canvas{
 	to{
 		color: maroon;
 	}
-}.card{
+}
+.card{
 	position: relative;
 	margin: auto;
 	top: 2vh;
@@ -1729,15 +1745,3 @@ canvas{
   .row{
 	  margin-left: 5vw;
   }
-.mc img{
-	width: 300px;
-	height: 300px;
-	object-fit: cover;
-}
-.mc{
-	height: 420px;
-	width: 300px;
-	margin: 2%;
-	background: #eee;
-	border: 4px solid maroon;
-}
