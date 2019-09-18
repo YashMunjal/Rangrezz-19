@@ -1699,7 +1699,7 @@ canvas{
   .card-front1{
 	height: 100%;
 	width: 100%;
-	background-image: url(./assets/images/required.png);
+	background-image: url(./assets/images/mjeve1.jpg);
 	background-position: 50% 50%;
 	background-size: cover;
 	position: absolute;
@@ -1711,7 +1711,7 @@ canvas{
   .card-front2{
 	height: 100%;
 	width: 100%;
-	background-image: url(./assets/images/required.png);
+	background-image: url(./assets/images/mjeve2.jpg);
 	background-position: 50% 50%;
 	background-size: cover;
 	position: absolute;
