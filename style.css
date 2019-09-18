@@ -1730,13 +1730,16 @@ canvas{
 	color: #ffffff;
 	text-align: center;
   }
+  .card-back span{
+	  font-size: 3.5vh;
+  }
   .card-back h2{
-	margin: 60% auto 35% auto;
+	margin: 3% auto 35% auto;
 	font-size: 2.5vw;
   }
   .card-back a {
 	text-decoration: none;
-	font-size: 2vw;
+	font-size: 4.5vh;
   }
   .card-back a:hover{
 	  text-decoration: none;
