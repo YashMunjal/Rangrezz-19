@@ -1728,11 +1728,14 @@ canvas{
 	  background-color: #000000;
   }
   .footer img{
-	  margin-left: 45vw;
-	  height: 20vh;
-	  width: 10vw;
+	  transform: translate(50%,-8%);
+	  height: 30%;
+	  width: 50%;
   }
   .footer h2{
 	  color: red;
 	  text-align: center;
+	}
+	.foot{
+		
 	}
