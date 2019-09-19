@@ -170,7 +170,6 @@ $(function() {
 		$canvas = null,
 		canvas = null,
 		context = null,
-		vars = null,
 		points = 8,
 		viscosity = 20,
 		mouseDist = 70,
@@ -331,7 +330,7 @@ $(function() {
 
 		// Clear scene
 		context.clearRect(0, 0, $canvas.width(), $canvas.height());
-		context.fillStyle = 'transparent ';
+		context.fillStyle = 'transparent';
 		context.fillRect(0, 0, $canvas.width(), $canvas.height());
 
 		// Move points
