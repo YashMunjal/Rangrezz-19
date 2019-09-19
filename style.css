@@ -168,59 +168,15 @@ canvas{
 /*--------------------*/
 /* ABOUT US */
 /*--------------------*/
-
-
 #rangrezz-about {
 	background-color: #fff;
 	display: inline;
 	float: left;
 	width: 100%;
 }
-
-.rangrezz-about-area {
-	display: inline;
-	float: left;
-	padding: 100px 0;
-	width: 100%;
+.master-box{
+	margin-top: -15vh;
 }
-
-.rangrezz-title-area {
-	display: inline;
-	float: center;
-	text-align: center;
-	padding: 0 120px;
-	width: 100%;
-}
-
-.rangrezz-title {
-	color: #1c1b1b;
-	margin-bottom: 15px;
-	padding: 0;
-	z-index: 10;
-	text-transform: capitalize;
-}
-
-.rangrezz-about-left {
-	display: inline;
-	float: left;
-	width: 100%;
-}
-
-.rangrezz-about-right {
-	display: inline;
-	float: center;
-	margin-top: 30px;
-	width: 100%;
-	font-family: 'Patrick Hand', cursive;
-	font-size:22px;
-	word-spacing: 1px;
-	letter-spacing: 0.4px;
-	font-weight:598; 
-	word-wrap:break-word;
-}
-
-
-
 /*--------------------*/
 /* VIDEO */
 /*--------------------*/
@@ -497,33 +453,23 @@ canvas{
 #rangrezz-minor-events {
 	background-color: #fff;
 	display: inline;
-	float: left;
-	width: 100%;
-	margin-top:-4%;
-}
-
-.rangrezz-speakers-area {
-	display: inline;
-	float: left;
-	padding: 100px 0;
 	width: 100%;
 }
-
 .rangrezz-speakers-content{
 	display: inline;
 	float: left;
 	margin-top: 50px;
 	width: 100%;
 }
-
 .rangrezz-single-speakers {
 	padding: 0 10px;
-	outline: none;
 	text-align: center;
 	-webkit-transition: all 0.3s ease 0s;
 	transition: all 0.3s ease 0s;
 }
-
+.rangrezz-single-speakers img{
+	height: 60vh;
+}
 .rangrezz-speakers-slider .slick-next {
 	right: -60px;
 }
@@ -531,38 +477,19 @@ canvas{
 .rangrezz-speakers-slider .slick-prev {
 	left: -60px;
 }
-
 .rangrezz-single-speakers-info {
 	display: inline;
 	float: left;
 	margin-top: 20px;
 	width: 100%;
 }
-
 .rangrezz-single-speakers-info h3 {
 	margin-bottom: 4px;
 	font-size: 22px;
 }
-
 .rangrezz-single-speakers-info p {
 	margin-bottom: 5px;
 }
-
-
-
-.rangrezz-single-speakers-social li {
-	display: inline-block;
-}
-
-.rangrezz-single-speakers-social li a {
-	display: inline-block;
-	margin-right: 5px;
-	-webkit-transition: all 0.5s;
-	-o-transition: all 0.5s;
-	transition: all 0.5s;
-}
-
-
 /*--------------------*/
 /* VENUE */
 /*--------------------*/
@@ -977,12 +904,29 @@ canvas{
 	background-color:#f09433;
 	background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
 	color:white;
-}/*--------------------*/
+}
+.mc img{
+	width: 300px;
+	height: 300px;
+	object-fit: cover;
+}
+.mc{
+	height: 420px;
+	width: 300px;
+	margin: 2%;
+	background: #eee;
+	border: 4px solid maroon;
+}
+/*--------------------*/
 /* RESPONSIVE STYLE */
 /*--------------------*/
-
 @media (max-width: 1199px) {
-
+	.mc{
+		width: 250px;
+	}
+	.cont{
+		justify-content: center;
+	}
 	.rangrezz-register-content {
 		padding: 0 150px;
 	}
@@ -1005,9 +949,18 @@ canvas{
 		right: -25px;
 	}		
 }
-
-@media (max-width: 991px) {	
-
+@media(max-width:1000px){
+	.master-box{
+		margin-top: -3vh;
+	}
+}
+@media (max-width: 991px) {
+	.mc{
+		width: 250px;
+	}
+	.col-md-6{
+		margin-top: 2%;
+	}
 	.rangrezz-primary-btn {
 		font-size: 14px;
 		padding: 12px 22px;
@@ -1676,7 +1629,7 @@ canvas{
 #rangrezz-major-events {
 	background-color: #fff;
 	width: 100%;
-	margin-bottom: 6vh;
+	margin-bottom: 4vh;
 }
 #major-events{
 	text-align: center;
@@ -1693,13 +1646,14 @@ canvas{
 	to{
 		color: maroon;
 	}
-}.card{
+}
+.card{
 	position: relative;
 	margin: auto;
 	top: 2vh;
 	height: 400px;
 	width: 325px;
-	transform-style: preserve-3d;
+	transform-style: preserve-3d(768px);
 	perspective: 600px;
 	border-radius: 3px;
 	transition: 0.5s;
@@ -1716,7 +1670,7 @@ canvas{
   .card-front1{
 	height: 100%;
 	width: 100%;
-	background-image: url(./assets/images/required.png);
+	background-image: url(./assets/images/mjeve1.jpg);
 	background-position: 50% 50%;
 	background-size: cover;
 	position: absolute;
@@ -1728,7 +1682,7 @@ canvas{
   .card-front2{
 	height: 100%;
 	width: 100%;
-	background-image: url(./assets/images/required.png);
+	background-image: url(./assets/images/mjeve2.jpg);
 	background-position: 50% 50%;
 	background-size: cover;
 	position: absolute;
@@ -1747,29 +1701,21 @@ canvas{
 	color: #ffffff;
 	text-align: center;
   }
+  .card-back span{
+	  font-size: 3.5vh;
+  }
   .card-back h2{
-	margin: 60% auto 35% auto;
+	margin: 3% auto 35% auto;
 	font-size: 2.5vw;
   }
   .card-back a {
 	text-decoration: none;
-	font-size: 2vw;
+	font-size: 4.5vh;
   }
   .card-back a:hover{
 	  text-decoration: none;
 	  color: red;
-  }.mc img{
-	width: 300px;
-	height: 300px;
-	object-fit: cover;
-}
-.mc{
-	height: 420px;
-	width: 300px;
-	margin: 2%;
-	background: #eee;
-	border: 4px solid coral;
-	/* padding: 2%; */
-}
-
-
+  }
+  .row{
+	  margin-left: 5vw;
+  }
