@@ -170,7 +170,6 @@ $(function() {
 		$canvas = null,
 		canvas = null,
 		context = null,
-		vars = null,
 		points = 8,
 		viscosity = 20,
 		mouseDist = 70,
