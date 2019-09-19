@@ -461,6 +461,9 @@ canvas{
 	margin-top: 50px;
 	width: 100%;
 }
+.minor{
+	margin-top: 8vh;
+}
 .rangrezz-single-speakers {
 	padding: 0 10px;
 	text-align: center;
@@ -471,11 +474,11 @@ canvas{
 	height: 60vh;
 }
 .rangrezz-speakers-slider .slick-next {
-	right: -60px;
+	right: -80px;
 }
 
 .rangrezz-speakers-slider .slick-prev {
-	left: -60px;
+	left: -80px;
 }
 .rangrezz-single-speakers-info {
 	display: inline;
@@ -1718,4 +1721,12 @@ canvas{
   }
   .row{
 	  margin-left: 5vw;
+  }
+  .footer{
+	  background-color: #000000;
+  }
+  .footer img{
+	  margin-left: 48vw;
+	  height: 20vh;
+	  width: 10vw;
   }
