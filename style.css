@@ -1728,13 +1728,23 @@ canvas{
 	  background-color: #000000;
   }
   .footer img{
-	  transform: translate(50%,-8%);
+	  transform: translate(110%,-8%);
 	  height: 30%;
-	  width: 50%;
+	  width:30%; 
+  }
+  @media(max-width:800px)
+  {
+	.footer img{
+		transform: translate(50%,-8%);
+	height: 30%;
+	width: 50%;
+	}
   }
   .footer h2{
 	  color: red;
 	  text-align: center;
+	  margin-top:10px;
+	  font-size: 100px;
 	}
 	.foot{
 		
