@@ -1726,7 +1726,11 @@ canvas{
 	  background-color: #000000;
   }
   .footer img{
-	  margin-left: 48vw;
+	  margin-left: 45vw;
 	  height: 20vh;
 	  width: 10vw;
   }
+  .footer h2{
+	  color: red;
+	  text-align: center;
+	}
