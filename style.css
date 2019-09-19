@@ -475,10 +475,12 @@ canvas{
 }
 .rangrezz-speakers-slider .slick-next {
 	right: -80px;
+	top:15vw;
 }
 
 .rangrezz-speakers-slider .slick-prev {
 	left: -80px;
+	top:15vw;
 }
 .rangrezz-single-speakers-info {
 	display: inline;
@@ -867,7 +869,7 @@ canvas{
 	display: inline;
 	float: left;
 	width: 100%;
-	margin-top:8%;
+	margin-top:0%;
 }
 
 .title-area{
