@@ -956,9 +956,13 @@ canvas{
 		margin-top: -3vh;
 	}
 }
-@media (max-width: 991px) {
+@media (max-width: 991px){
+	.rangrezz-social-media{
+		margin-left: -3vw;
+	}
 	.mc{
-		width: 250px;
+		width:250px;
+		margin-left: 19vw;
 	}
 	.col-md-6{
 		margin-top: 2%;
@@ -1732,9 +1736,9 @@ canvas{
   @media(max-width:800px)
   {
 	.footer img{
-	transform: translate(50%,-8%);
-	height: 30%;
-	width: 50%;
+	transform: translate(150%,-8%);
+	height: 25%;
+	width: 25%;
 	}
   }
   .footer h2{
