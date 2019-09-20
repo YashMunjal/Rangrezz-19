@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Patrick+Hand&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Kurale&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Satisfy&display=swap');
 @font-face {
 	font-family: samarkan_____normal;
 	src: url(./assets/fonts/SAMAN___.TTF);
@@ -473,38 +474,30 @@ canvas{
 .rangrezz-single-speakers img{
 	height: 60vh;
 }
-.rangrezz-speakers-slider .slick-next {
+.slick-next {
 	right: -80px;
 	top:15vw;
 }
-
-.rangrezz-speakers-slider .slick-prev {
+.slick-prev {
 	left: -80px;
 	top:15vw;
 }
 .rangrezz-single-speakers-info {
-	display: inline;
-	float: left;
 	margin-top: 20px;
 	width: 100%;
+	color: #000000;
 }
 .rangrezz-single-speakers-info h3 {
-	margin-bottom: 4px;
-	font-size: 22px;
-}
-.rangrezz-single-speakers-info p {
-	margin-bottom: 5px;
+	font-size: 4vh;
 }
 /*--------------------*/
 /* VENUE */
 /*--------------------*/
-
 #rangrezz-venue {
 	display: inline;
 	float: left;
 	width: 100%;
 }
-
 .rangrezz-venue-area {
 	display: inline;
 	float: left;
@@ -942,14 +935,6 @@ canvas{
 		right: 5%;
 		margin-top: 0;
 	}
-
-	.rangrezz-apps-screenshot-slider .slick-prev {
-		left: -25px;
-	}
-
-	.rangrezz-apps-screenshot-slider .slick-next {
-		right: -25px;
-	}		
 }
 @media(max-width:1000px){
 	.master-box{
@@ -957,12 +942,13 @@ canvas{
 	}
 }
 @media (max-width: 991px){
+	
 	.rangrezz-social-media{
 		margin-left: -3vw;
 	}
 	.mc{
 		width:250px;
-		margin-left: 19vw;
+		margin-left: 25vw;
 	}
 	.col-md-6{
 		margin-top: 2%;
@@ -1233,42 +1219,41 @@ canvas{
 	.rangrezz-schedule-menu li a {
 		font-size: 15px;
 	}
-
 	.rangrezz-event-timeline ul li {
 		margin-left: 5%;
 	}
-
 	.rangrezz-event-timeline ul li .rangrezz-single-event,
 	.rangrezz-event-timeline ul li:nth-child(2n+1) .rangrezz-single-event,
 	.rangrezz-event-timeline ul li:nth-child(2n) .rangrezz-single-event {
 		left: 30px;
 		width: 350px;
 	}
-
 	.rangrezz-event-timeline ul li .rangrezz-single-event h3 {
 		margin-bottom: 5px;
 		font-size: 14px;
 	}
-
 	.rangrezz-venue-address h4 {
 		font-size: 16px;
 	}
-
 	.rangrezz-register-content,
 	.rangrezz-contact-content {
 		padding: 0 5%;
 	}
-
 	.rangrezz-faq-content .panel-title {
 		font-size: 14px;
-	}
-					
-	
+	}	
 }
-
-
 @media (max-width: 360px) {
-
+	.rangrezz-single-speakers img{
+		margin-left: 5.5vw;
+	}
+	.slick-next{
+		top: 50vw;
+		left:78vw;
+	}
+	.slick-prev{
+		top: 50vw;
+	}
 	.rangrezz-logo img {
 		width: 120px;
 	}
@@ -1722,9 +1707,6 @@ canvas{
 	  text-decoration: none;
 	  color: red;
   }
-  .row{
-	  margin-left: 5vw;
-  }
   .footer{
 	  background-color: #000000;
   }
@@ -1744,8 +1726,7 @@ canvas{
   .footer h2{
 	  color: coral;
 	  text-align: center;
+	  font-family: 'Satisfy', cursive;
 	  font-size: 4vw;
-	}
-	.foot{
-		
+	  padding-top: 1.2vw;
 	}
