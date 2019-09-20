@@ -1237,6 +1237,9 @@ canvas{
 	.rangrezz-single-speakers img{
 		margin-left: 5.5vw;
 	}
+	.mc{
+		margin-left: 10vw;
+	}
 	.slick-next{
 		top: 50vw;
 		left:78vw;
