@@ -864,7 +864,9 @@ canvas{
 	width: 100%;
 	margin-top:0%;
 }
-
+.mc1{
+	margin-left: 4vw;
+}
 .title-area{
 	font-size:20px;
 	display: inline;
@@ -944,7 +946,7 @@ canvas{
 @media (max-width: 991px){
 	
 	.rangrezz-social-media{
-		margin-left: -3vw;
+		margin-left: 1vw;
 	}
 	.mc{
 		width:250px;
@@ -1025,15 +1027,6 @@ canvas{
 	.rangrezz-title-area {
 		padding: 0 50px;
 	}
-
-	.rangrezz-faq-content {
-		padding: 0;
-	}
-
-	.rangrezz-contact-right {
-		margin-top: 50px;
-	}
-
 	.rangrezz-menu-btn {
 		right: 5%;
 	}
@@ -1067,10 +1060,7 @@ canvas{
 
 	.rangrezz-single-price {
 		margin-bottom: 30px;
-	}
-
-
-		
+	}	
 }
 
 @media (max-width: 767px) {
