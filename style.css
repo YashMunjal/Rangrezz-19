@@ -463,15 +463,15 @@ canvas{
 	width: 100%;
 }
 .minor{
-	margin-top: 8vh;
+	margin-top: 12vh;
 }
-.rangrezz-single-speakers {
+.minor-events {
 	padding: 0 10px;
 	text-align: center;
 	-webkit-transition: all 0.3s ease 0s;
 	transition: all 0.3s ease 0s;
 }
-.rangrezz-single-speakers img{
+.minor-events img{
 	height: 60vh;
 }
 .slick-next {
@@ -482,12 +482,12 @@ canvas{
 	left: -80px;
 	top:15vw;
 }
-.rangrezz-single-speakers-info {
+.events-name {
 	margin-top: 20px;
 	width: 100%;
 	color: #000000;
 }
-.rangrezz-single-speakers-info h3 {
+.events-name h3 {
 	font-size: 4vh;
 }
 /*--------------------*/
