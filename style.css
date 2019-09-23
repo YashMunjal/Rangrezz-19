@@ -1526,7 +1526,6 @@ canvas{
 		min-width: 333px;
 		top:24vh;
 	}
-	
 }
 @media(max-width:500px)
 {
@@ -1543,7 +1542,6 @@ canvas{
 		min-width: 333px;
 		top:24vh;
 	}
-	
 }
 #time-1{
     background-color: #db0fd8;
@@ -1641,14 +1639,7 @@ canvas{
 		color: maroon;
 		transition: 1.5s;
 	}
-	
-
 }
-
-
-
-
-
 .card{
 	position: relative;
 	margin: auto;
@@ -1716,9 +1707,7 @@ canvas{
 	align-self: center;
 	flex-direction: column;
 	align-items: center;
-
-	
-  }
+}
 
   .logo-text{
 	  color: #e6683c;
@@ -1733,26 +1722,4 @@ canvas{
 	  text-decoration: none;
 	  color: #e6a400;
   }
-  .footer{
-	  background-color: #000000;
-  }
-  .footer img{
-	  transform: translate(190%,-8%);
-	  height: 20%;
-	  width:20%; 
-  }
-  @media(max-width:800px)
-  {
-	.footer img{
-	transform: translate(150%,-8%);
-	height: 25%;
-	width: 25%;
-	}
-  }
-  .footer h2{
-	  color: coral;
-	  text-align: center;
-	  font-family: 'Satisfy', cursive;
-	  font-size: 4vw;
-	  padding-top: 1.2vw;
-	}
+  
