@@ -451,19 +451,29 @@ canvas{
 /* MINOR EVENTS*/
 /*--------------------*/
 
+.container-x{
+	width: 80vw;
+	margin: auto;
+}
+
 #rangrezz-minor-events {
 	background-color: #fff;
-	display: inline;
 	width: 100%;
+	height: 100vh!important;
+	width:100vw;
+}
+.rangrezz-speakers-slider{
+	margin-top: 0%;
+	height: 60vh;
+	padding: 20%;
 }
 .rangrezz-speakers-content{
-	display: inline;
 	float: left;
 	margin-top: 50px;
 	width: 100%;
 }
 .minor{
-	margin-top: 12vh;
+	margin-top: 5%;
 }
 .minor-events {
 	padding: 0 10px;
@@ -472,23 +482,31 @@ canvas{
 	transition: all 0.3s ease 0s;
 }
 .minor-events img{
-	height: 60vh;
+	height: 400px;
+	width: 300px;
+	
 }
 .slick-next {
-	right: -80px;
-	top:15vw;
+	display: flex;
+	justify-items: center;
+	justify-content: center;
+	align-items: center;
+	align-self: center;
 }
 .slick-prev {
-	left: -80px;
-	top:15vw;
+	display: flex;
+	justify-items: center;
+	justify-content: center;
+	align-items: center;
+	align-self: center;
 }
 .events-name {
 	margin-top: 20px;
 	width: 100%;
-	color: #000000;
+	color: #1b1b1b;
 }
 .events-name h3 {
-	font-size: 4vh;
+	font-size: 2rem;
 }
 /*--------------------*/
 /* VENUE */
@@ -1624,13 +1642,25 @@ canvas{
 	animation:mycolor 3s infinite;
 }
 @keyframes mycolor{
-	from{
-		color:#000000;
-	}
-	to{
+	0%{
 		color: maroon;
 	}
+	50%{
+		color: #1b1b1b;
+		transition: 1.5s;
+	}
+	100%{
+		color: maroon;
+		transition: 1.5s;
+	}
+	
+
 }
+
+
+
+
+
 .card{
 	position: relative;
 	margin: auto;
@@ -1678,27 +1708,42 @@ canvas{
 	height: 100%;
 	width: 100%;
 	position: absolute;
-	background-color: #000000;
+	background-color: #292525;
 	backface-visibility: hidden;
 	transform: rotateX(180deg);
 	transition: 0.5s;
 	color: #ffffff;
 	text-align: center;
   }
-  .card-back span{
-	  font-size: 3.5vh;
+  .card-back .logo-text{
+	font-family: 'Kurale', serif;
+	  font-size: 3rem;
+
   }
   .card-back h2{
-	margin: 3% auto 35% auto;
-	font-size: 2.5vw;
+	font-family: 'Kurale', serif;
+	font-size: 2rem;
+	display: flex;
+	justify-content: center;
+	align-self: center;
+	flex-direction: column;
+	align-items: center;
+
+	
+  }
+
+  .logo-text{
+	  color: #e6683c;
   }
   .card-back a {
+	font-family: 'Kurale', serif;
 	text-decoration: none;
-	font-size: 4.5vh;
+	font-size: 2rem;
+	color:  #e6683c;
   }
   .card-back a:hover{
 	  text-decoration: none;
-	  color: red;
+	  color: #e6a400;
   }
   .footer{
 	  background-color: #000000;
