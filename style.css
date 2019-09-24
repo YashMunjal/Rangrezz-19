@@ -515,11 +515,9 @@ canvas{
 	float: left;
 	width: 100%;
 }
-
 .rangrezz-venue-map iframe {
 	margin-bottom: -8px;
 }
-
 .rangrezz-venue-address {
 	display: inline;
 	float: left;
