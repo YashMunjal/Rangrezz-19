@@ -1,0 +1,135 @@
+@import "https://fonts.googleapis.com/css?family=Raleway:400,300,200,500,600,700";
+@font-face {
+	font-family: samarkan_____normal;
+	src: url(../fonts/SAMAN___.TTF);
+  }
+.logo-text{
+    font-family: 'samarkan_____normal', Arial, sans-serif;
+    font-size: 5em;
+    font-weight: 550;
+    color: black;
+}
+body {
+    color: #37474F;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    animation: colorchange infinite 6s;
+  }
+  @-webkit-keyframes colorchange{
+0%   {background: #3c6f9c; left:0px; top:0px;}
+25%  {background: #1abc9c; left:0px; top:0px;}
+50%  {background: #9b59b6; left:0px; top:0px;}
+75%  {background: #8e44ad; left:0px; top:0px;}
+100% {background: #16a085; left:0px; top:0px;}
+}
+.material-card img{
+    width: 27.5rem;
+}
+  .material-card {
+      position: relative;
+      margin-bottom: 11em;
+    }
+    .material-card h2 {
+      position: absolute;
+      width: 31rem;
+      padding-left: 30px!important;
+      padding: 10px 16px;
+      color: #fff;
+      font-size: 1.6em;
+      font-weight: 600;
+      line-height: 28px;
+      margin: 0;
+      z-index: 10;
+    }
+    
+    .material-card h3 {
+      position: absolute;
+      width: 28rem;
+      padding: 8px;
+      color: #fff;
+      font-size: 1.6em;
+      font-weight: 600;
+      line-height: 28px;
+      margin-top:-260px;
+      margin-left: 75%;
+      z-index: 10;
+    }
+    .material-card h3 strong {
+      font-weight:500;
+      display: block;
+      font-size: .75em;
+    }
+    .material-card h2:before,
+    .material-card h2:after {
+      content: ' ';
+      position: absolute;
+      left: 0;
+      top: -16px;
+      width: 0;
+      border: 8px solid;
+    }
+    .material-card .img-container {
+      position: relative;
+      }
+    .img-container{
+        height: 300px;
+        width: auto;
+    }
+    .material-card.Red h2 {
+        top: 13em;
+        left: -.8em;
+      background-color: #F44336;
+    }
+    .material-card.Red h2:after {
+      border-top-color: #F44336;
+      border-right-color: transparent;
+      border-bottom-color: #F44336;
+      border-left-color: transparent;
+    }
+    .material-card.Red h2:before {
+      border-top-color: transparent;
+      border-right-color: #B71C1C;
+      border-bottom-color: #B71C1C;
+      border-left-color: transparent;
+    }
+    .material-card.Red h3 {
+        top: 13em;
+        left: -.8em;
+        background-color: peru;
+    }
+    .single{
+        width: 29%;
+        margin-left: 36%;
+    }
+    .double-1{
+        margin-left: 10%;
+    }
+    .double-2{
+        margin-top: -46rem;
+        margin-left: 60%;
+    }
+    .triple-2{
+        margin-top: -46rem;
+        margin-left: 35%;
+    }
+    .triple-3{
+        margin-top: -46rem;
+        margin-left: 70%;
+    }
+    img{
+      border: 3px solid black;
+      border-radius: 10px;
+    }
+    .ml2 {
+      font-weight: 600;
+      font-size: 1.2em;
+    }
+    .ml2 .letter {
+      display: inline-block;
+    }
+    h3{
+      border-top-left-radius:15px;
+      border-top-right-radius: 15px;
+      border-bottom-left-radius: 15px;
+      border-bottom-right-radius: 15px; 
+    }
