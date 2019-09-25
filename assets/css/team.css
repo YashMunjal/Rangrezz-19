@@ -26,10 +26,11 @@ body {
     width: 95%;
   }
   @-webkit-keyframes colorchange{
-    0%   {background: #3c6f9c; left:0px; top:0px;}
-    25%  {background: #1abc9c; left:0px; top:0px;}
-    50%  {background: #9b59b6; left:0px; top:0px;}
-    75%  {background: #8e44ad; left:0px; top:0px;}
+    0%   {background: seagreen; left:0px; top:0px;}
+    20%  {background: #1abc9c; left:0px; top:0px;}
+    40%  {background: #9b59b6; left:0px; top:0px;}
+    60%  {background: #8e44ad; left:0px; top:0px;}
+    80%  {background: #8e44ad; left:0px; top:0px;}
     100% {background: #16a085; left:0px; top:0px;}
 }
 .material-card img{
