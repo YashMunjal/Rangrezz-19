@@ -9,11 +9,19 @@
     font-weight: 550;
     color: black;
 }
+.logo{
+  border:none;
+  position:absolute;
+  height:150px;
+  top:1px;
+  right:1px;
+}
 body {
     color: #37474F;
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
     animation: colorchange infinite 6s;
+    width: 95%;
   }
   @-webkit-keyframes colorchange{
     0%   {background: #3c6f9c; left:0px; top:0px;}
@@ -44,14 +52,14 @@ body {
     
     .material-card h3 {
       position: absolute;
-      width: 22rem;
+      width:21rem;
       padding: 8px;
       color: #fff;
-      font-size: 1.6em;
+      font-size: 1.2em;
       font-weight: 600;
       line-height: 28px;
-      margin-top:-260px;
-      margin-left: 75%;
+      margin-top:-200px;
+      left: 5vw;
       z-index: 10;
     }
     .material-card h3 strong {
@@ -101,21 +109,6 @@ body {
         width: 29%;
         margin-left: 36%;
     }
-    .double-1{
-        margin-left: 10%;
-    }
-    .double-2{
-        margin-top: -45.3rem;
-        margin-left: 60%;
-    }
-    .triple-2{
-        margin-top: -45.3rem;
-        margin-left: 35%;
-    }
-    .triple-3{
-        margin-top: -45.4rem;
-        margin-left: 70%;
-    }
     img{
       border: 3px solid black;
       border-radius: 10px;
@@ -125,4 +118,12 @@ body {
       border-top-right-radius: 15px;
       border-bottom-left-radius: 15px;
       border-bottom-right-radius: 15px; 
+    }
+    @media(max-width:991px){
+      .single{
+          left: -35vw;
+      }
+      .material-card{
+        left: 32vw;
+      }
     }
