@@ -51,7 +51,6 @@ body {
       margin: 0;
       z-index: 10;
     }
-    
     .material-card h3 {
       position: absolute;
       width:21rem;
@@ -137,6 +136,32 @@ body {
     }
     @media(max-width:515px){
       .logo-text{
+        font-size: 4em;
         transform: translate(20%,0);  
+      }
+      .material-card{
+        left: 20vw;
+        top: 15vw;
+      }
+      .material-card h3{
+        transform: translate(9%,0);
+      }
+      .mam h3{
+        width: 16.8em;
+        transform: translate(4%,0);
+      }
+      .inaugral h3{
+        width: 16.8em;
+        transform: translate(4%,0);
+      }
+    }
+    @media(max-width:450px){
+      .logo-text{
+        transform: translate(25%,0);
+      }
+    }
+    @media(max-width:401px){
+      .logo-text{
+        transform: translate(28%,0);
       }
     }

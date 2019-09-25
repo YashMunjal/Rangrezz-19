@@ -1,4 +1,4 @@
-var countDownDate = new Date("Sept 27, 2019 00:00:00").getTime();
+var countDownDate = new Date("Sept 27, 2019 00:00:01").getTime();
 		 // Update the count down every 1 second
 		var x = setInterval(function () {
 			// Get today's date and time
@@ -14,17 +14,24 @@ var countDownDate = new Date("Sept 27, 2019 00:00:00").getTime();
             document.getElementById("time-1").innerHTML = days + "d";
             document.getElementById("time-2").innerHTML = hours + "h";
             document.getElementById("time-3").innerHTML = minutes + "m";
-            document.getElementById("time-4").innerHTML = seconds + "s";
-            if(days<10){
+			document.getElementById("time-4").innerHTML = seconds + "s";
+			if(days<0 && hours<0 && minutes<0 && seconds<0){
+				document.getElementById("time-1").innerHTML = "00d";
+            document.getElementById("time-2").innerHTML = "00h";
+            document.getElementById("time-3").innerHTML = "00m";
+			document.getElementById("time-4").innerHTML ="00s";
+			}
+
+		    if(days>=0 && days<10){
                 document.getElementById("time-1").innerHTML = "0"+days + "d";
             }
-            if(hours<10) {
+            if(hours>=0 && hours<10) {
                 document.getElementById("time-2").innerHTML = "0"+hours + "h";
 			}
-            if(minutes<10) {
+            if(minutes>=0 && minutes<10) {
                 document.getElementById("time-3").innerHTML = "0"+ minutes + "m";
             }
-            if(seconds<10) {
+            if(seconds>=0 && seconds<10) {
                 document.getElementById("time-4").innerHTML = "0"+ seconds + "s";
             }            
 			// If the count down is over, write some text 
