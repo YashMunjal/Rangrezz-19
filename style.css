@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Patrick+Hand&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Kurale&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Satisfy&display=swap');
 @font-face {
 	font-family: samarkan_____normal;
 	src: url(./assets/fonts/SAMAN___.TTF);
@@ -374,8 +375,6 @@ canvas{
 	border-radius: 50%;
 	background: inherit;
 }
-
-
 .rangrezz-event-timeline ul li .rangrezz-single-event {
 	background-color: #fff;
 	-webkit-box-shadow: 0 0 16px 0 rgba(32,32,47,0.16);
@@ -449,57 +448,62 @@ canvas{
 /*--------------------*/
 /* MINOR EVENTS*/
 /*--------------------*/
-
+.container-x{
+	width: 90vw;
+	margin: auto;
+}
 #rangrezz-minor-events {
 	background-color: #fff;
-	display: inline;
 	width: 100%;
+	height: 100vh!important;
 }
-.rangrezz-speakers-content{
-	display: inline;
-	float: left;
-	margin-top: 50px;
-	width: 100%;
+.rangrezz-speakers-slider{
+	margin-top:0%;
+	height: 100vh;
+	width: 90vw;
+	padding: 10%;
 }
-.rangrezz-single-speakers {
+.minor-events {
 	padding: 0 10px;
 	text-align: center;
 	-webkit-transition: all 0.3s ease 0s;
 	transition: all 0.3s ease 0s;
 }
-.rangrezz-single-speakers img{
-	height: 60vh;
+.minor-events img{
+	height: 400px;
+	width: 300px;
+	
 }
-.rangrezz-speakers-slider .slick-next {
-	right: -60px;
+.slick-next {
+	display: flex;
+	justify-items: center;
+	justify-content: center;
+	align-items: center;
+	align-self: center;
 }
-
-.rangrezz-speakers-slider .slick-prev {
-	left: -60px;
+.slick-prev {
+	display: flex;
+	justify-items: center;
+	justify-content: center;
+	align-items: center;
+	align-self: center;
 }
-.rangrezz-single-speakers-info {
-	display: inline;
-	float: left;
+.events-name {
 	margin-top: 20px;
 	width: 100%;
+	color: #1b1b1b;
 }
-.rangrezz-single-speakers-info h3 {
-	margin-bottom: 4px;
-	font-size: 22px;
-}
-.rangrezz-single-speakers-info p {
-	margin-bottom: 5px;
-}
+.events-name h3 {
+	font-size: 2rem;
+	}
 /*--------------------*/
 /* VENUE */
 /*--------------------*/
-
 #rangrezz-venue {
 	display: inline;
 	float: left;
 	width: 100%;
 }
-
 .rangrezz-venue-area {
 	display: inline;
 	float: left;
@@ -511,11 +515,9 @@ canvas{
 	float: left;
 	width: 100%;
 }
-
 .rangrezz-venue-map iframe {
 	margin-bottom: -8px;
 }
-
 .rangrezz-venue-address {
 	display: inline;
 	float: left;
@@ -864,9 +866,11 @@ canvas{
 	display: inline;
 	float: left;
 	width: 100%;
-	margin-top:8%;
+	margin-top:0%;
 }
-
+.mc1{
+	margin-left: 4vw;
+}
 .title-area{
 	font-size:20px;
 	display: inline;
@@ -924,9 +928,6 @@ canvas{
 	.mc{
 		width: 250px;
 	}
-	.cont{
-		justify-content: center;
-	}
 	.rangrezz-register-content {
 		padding: 0 150px;
 	}
@@ -940,23 +941,20 @@ canvas{
 		right: 5%;
 		margin-top: 0;
 	}
-
-	.rangrezz-apps-screenshot-slider .slick-prev {
-		left: -25px;
-	}
-
-	.rangrezz-apps-screenshot-slider .slick-next {
-		right: -25px;
-	}		
 }
 @media(max-width:1000px){
 	.master-box{
 		margin-top: -3vh;
 	}
 }
-@media (max-width: 991px) {
+@media (max-width: 991px){
+	
+	.rangrezz-social-media{
+		margin-left: 1vw;
+	}
 	.mc{
-		width: 250px;
+		width:250px;
+		margin-left: 25vw;
 	}
 	.col-md-6{
 		margin-top: 2%;
@@ -1033,15 +1031,6 @@ canvas{
 	.rangrezz-title-area {
 		padding: 0 50px;
 	}
-
-	.rangrezz-faq-content {
-		padding: 0;
-	}
-
-	.rangrezz-contact-right {
-		margin-top: 50px;
-	}
-
 	.rangrezz-menu-btn {
 		right: 5%;
 	}
@@ -1075,10 +1064,7 @@ canvas{
 
 	.rangrezz-single-price {
 		margin-bottom: 30px;
-	}
-
-
-		
+	}	
 }
 
 @media (max-width: 767px) {
@@ -1227,42 +1213,44 @@ canvas{
 	.rangrezz-schedule-menu li a {
 		font-size: 15px;
 	}
-
 	.rangrezz-event-timeline ul li {
 		margin-left: 5%;
 	}
-
 	.rangrezz-event-timeline ul li .rangrezz-single-event,
 	.rangrezz-event-timeline ul li:nth-child(2n+1) .rangrezz-single-event,
 	.rangrezz-event-timeline ul li:nth-child(2n) .rangrezz-single-event {
 		left: 30px;
 		width: 350px;
 	}
-
 	.rangrezz-event-timeline ul li .rangrezz-single-event h3 {
 		margin-bottom: 5px;
 		font-size: 14px;
 	}
-
 	.rangrezz-venue-address h4 {
 		font-size: 16px;
 	}
-
 	.rangrezz-register-content,
 	.rangrezz-contact-content {
 		padding: 0 5%;
 	}
-
 	.rangrezz-faq-content .panel-title {
 		font-size: 14px;
-	}
-					
-	
+	}	
 }
-
-
 @media (max-width: 360px) {
-
+	.rangrezz-single-speakers img{
+		margin-left: 7vw;
+	}
+	.mc{
+		margin-left: 10vw;
+	}
+	.slick-next{
+		top: 50vw;
+		left:78vw;
+	}
+	.slick-prev{
+		top: 50vw;
+	}
 	.rangrezz-logo img {
 		width: 120px;
 	}
@@ -1536,7 +1524,6 @@ canvas{
 		min-width: 333px;
 		top:24vh;
 	}
-	
 }
 @media(max-width:500px)
 {
@@ -1553,7 +1540,6 @@ canvas{
 		min-width: 333px;
 		top:24vh;
 	}
-	
 }
 #time-1{
     background-color: #db0fd8;
@@ -1640,11 +1626,16 @@ canvas{
 	animation:mycolor 3s infinite;
 }
 @keyframes mycolor{
-	form{
-		color:#000000;
-	}
-	to{
+	0%{
 		color: maroon;
+	}
+	50%{
+		color: #1b1b1b;
+		transition: 1.5s;
+	}
+	100%{
+		color: maroon;
+		transition: 1.5s;
 	}
 }
 .card{
@@ -1694,28 +1685,38 @@ canvas{
 	height: 100%;
 	width: 100%;
 	position: absolute;
-	background-color: #000000;
+	background-color: #292525;
 	backface-visibility: hidden;
 	transform: rotateX(180deg);
 	transition: 0.5s;
 	color: #ffffff;
 	text-align: center;
   }
-  .card-back span{
-	  font-size: 3.5vh;
+  .card-back .logo-text{
+	font-family: 'Kurale', serif;
+	  font-size: 3rem;
+
   }
   .card-back h2{
-	margin: 3% auto 35% auto;
-	font-size: 2.5vw;
+	font-family: 'Kurale', serif;
+	font-size: 2rem;
+	display: flex;
+	justify-content: center;
+	align-self: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+  .logo-text{
+	  color: #e6683c;
   }
   .card-back a {
+	font-family: 'Kurale', serif;
 	text-decoration: none;
-	font-size: 4.5vh;
+	font-size: 2rem;
+	color:  #e6683c;
   }
   .card-back a:hover{
 	  text-decoration: none;
-	  color: red;
-  }
-  .row{
-	  margin-left: 5vw;
+	  color: #e6a400;
   }
