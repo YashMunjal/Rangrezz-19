@@ -12,9 +12,11 @@
 .logo{
   border:none;
   position:absolute;
-  height:150px;
-  top:1px;
-  right:1px;
+  height:120px;
+  top:10px;
+}
+.mam h3{
+  transform: translate(5%,0);
 }
 body {
     color: #37474F;
@@ -125,5 +127,16 @@ body {
       }
       .material-card{
         left: 32vw;
+      }
+    }
+    @media(max-width:776px){
+      .logo-text{
+        font-size: 4em;
+        transform: translate(10%,0);
+      }
+    }
+    @media(max-width:515px){
+      .logo-text{
+        transform: translate(20%,0);  
       }
     }
