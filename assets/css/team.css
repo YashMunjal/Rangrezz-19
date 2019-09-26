@@ -23,7 +23,7 @@ body {
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
     animation: colorchange infinite 6s;
-    width: 95%;
+    width: 100%;
   }
   @-webkit-keyframes colorchange{
     0%   {background: seagreen; left:0px; top:0px;}
